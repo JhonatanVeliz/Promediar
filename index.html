@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="./css/normlize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+
+    <title>Promediar</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="icon">
+            <img src="./assets/list.png" alt="icono para fines ilustrativos" class="icon__image">
+        </div>    
+
+        <h1 class="container__title">Porfavor ingrese las notas de cada bimestre</h1>
+
+        <form action="" class="form" id="form">
+
+            <label class="form__label" for="one">Primer Bimestre</label>
+            <input class="form__input" type="number" placeholder="INGRESAR NOTA" id="one">
+
+            <label class="form__label" for="two">Segundo Bimestre</label>
+            <input class="form__input" type="number" placeholder="INGRESAR NOTA" id="two">
+
+            <label class="form__label" for="tree">Tercer Bimestre</label>
+            <input class="form__input" type="number" placeholder="INGRESAR NOTA" id="tree">
+
+            <label class="form__label" for="four">Cuarto Bimestre</label>
+            <input class="form__input " type="number" placeholder="INGRESAR NOTA" id="four">
+
+            <div class="form__buttoms">
+                <input type="button" value="Registrar resultado" id="result" class="form__input form__input--final btn">
+
+                <input type="text" id="note" class="form__input note" readonly>
+
+                <div class="delite" id="delite"><i class="fa-solid fa-trash"></i></div>
+            </div>
+
+        </form>
+    </div>
+
+
+    <p class="author">Desarrollado por Jhonatan Véliz</p>
+
+    <script src="https://kit.fontawesome.com/ecc2fbab5a.js" crossorigin="anonymous"></script>
+    
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
